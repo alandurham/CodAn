@@ -73,6 +73,7 @@ Basic usage (predict CDS):
 ```
 codan.py -t transcripts.fa -o output_folder -m model
 ```
+It is important to note that "model" refers do the specific folder associated with the organism type (currently INV, VERT, PLANT and FUNGI). If, for example,  you system is installed in folder "/home/user/CodAn" "model" will be something like "/home/user/CodAn/models/INV". 
 
 Alternative usage (predict CDS and perform BLAST search in specific DB to annotated predicted genes based on similarity):
 ```
